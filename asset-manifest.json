@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//trunn5.github.io/static/css/main.8dea01d0.css",
-    "main.js": "//trunn5.github.io/static/js/main.4015f71b.js",
-    "static/media/vk_icon.png": "//trunn5.github.io/static/media/vk_icon.40e13fb9f44c67225279.png",
-    "index.html": "//trunn5.github.io/index.html",
-    "main.8dea01d0.css.map": "//trunn5.github.io/static/css/main.8dea01d0.css.map",
-    "main.4015f71b.js.map": "//trunn5.github.io/static/js/main.4015f71b.js.map"
+    "main.css": "/static/css/main.8dea01d0.css",
+    "main.js": "/static/js/main.b56b55ea.js",
+    "static/media/vk_icon.png": "/static/media/vk_icon.40e13fb9f44c67225279.png",
+    "index.html": "/index.html",
+    "main.8dea01d0.css.map": "/static/css/main.8dea01d0.css.map",
+    "main.b56b55ea.js.map": "/static/js/main.b56b55ea.js.map"
   },
   "entrypoints": [
     "static/css/main.8dea01d0.css",
-    "static/js/main.4015f71b.js"
+    "static/js/main.b56b55ea.js"
   ]
 }
