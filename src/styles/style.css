@@ -19,6 +19,15 @@ hr {
     margin: 0;
 }
 
+section {
+    min-height: calc(100vh - 250px);
+}
+
+section h1 {
+    max-width: max-content;
+    margin: 10px auto;
+}
+
 header > h1 {
     text-align: center;
     color: #2da1ff;
@@ -49,6 +58,7 @@ main > #content {
 }
 
 .section__block-container {
+    margin: 10px;
     justify-content: center;
     display: flex;
     flex-direction: row;
