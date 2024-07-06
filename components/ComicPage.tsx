@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { formatDistanceToNow } from 'date-fns';
 import { ComicData } from '../types';
-import '../styles/comic.css';
 
 const ComicPage: React.FC = () => {
   const [email, setEmail] = useState('');

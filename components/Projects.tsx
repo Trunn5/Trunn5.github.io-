@@ -1,8 +1,5 @@
 import React from 'react';
-import '../styles/reset.css';
-import '../styles/normalize.css';
-import '../styles/style.css';
-import '../styles/comic.css';
+
 
 const Projects: React.FC = () => (
   <section id="projects">

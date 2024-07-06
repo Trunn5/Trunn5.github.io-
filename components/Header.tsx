@@ -1,9 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/reset.css';
-import '../styles/normalize.css';
-import '../styles/style.css';
-import '../styles/comic.css';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
   return (
@@ -12,13 +8,13 @@ const Header: React.FC = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link href="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/comic">Comic</Link>
+            <Link href="/comic">Comic</Link>
           </li>
         </ul>
       </nav>
