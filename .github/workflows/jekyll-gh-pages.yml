@@ -1,4 +1,4 @@
-name: Deploy Next.js to GitHub Pages
+name: Deploy Next.js to Vercel
 
 on:
   push:
@@ -24,14 +24,11 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Export Next.js app
-        run: npm run export
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v21
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out  # Adjust this path based on your Next.js export settings
-          publish_branch: gh-pages  # Branch to push to (ensure it exists in your repository settings)
-          cname: your-custom-domain.com  # Optional: Add custom domain if applicable
+          vercel_token: ${{ secrets.VERCEL_TOKEN }}
+          vercel_project_id: trunn5-github-io
+          vercel_scope: trunn5s-projects
+
 
