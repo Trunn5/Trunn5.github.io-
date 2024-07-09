@@ -1,102 +1,102 @@
 html {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #c2d7ff;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #c2d7ff;
 }
 
 header > #logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 hr {
-    margin: 0;
+  margin: 0;
 }
 
 section {
-    min-height: calc(100vh - 250px);
+  min-height: calc(100vh - 250px);
 }
 
 section h1 {
-    max-width: max-content;
-    margin: 10px auto;
+  max-width: max-content;
+  margin: 10px auto;
 }
 
 header > h1 {
-    text-align: center;
-    color: #2da1ff;
-    font-size: 52px;
-    border-bottom: 3px #006dc9 solid;
+  text-align: center;
+  color: #2da1ff;
+  font-size: 52px;
+  border-bottom: 3px #006dc9 solid;
 }
 
 main {
-    background-color: #dae6ff;
+  background-color: #dae6ff;
 }
 
 main > #content {
-    min-height: calc(100vh - 80px - 150px);
-    width: 800px;
-    margin: 0 auto;
+  min-height: calc(100vh - 80px - 150px);
+  width: 800px;
+  margin: 0 auto;
 }
 
 #content > section {
-    margin-top: 0;
-    hr {
-        margin: 20px;
-    }
-    h1 {
-        margin: 0;
-        padding: 20px 0 0 0;
-        text-align: center;
-    }
+  margin-top: 0;
+  hr {
+    margin: 20px;
+  }
+  h1 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+  }
 }
 
 .section__block-container {
-    margin: 10px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .section__block {
-    height: 300px;
-    max-width: 300px;
-    margin: 0 0 0 20px;
-    text-align: center;
-    padding: 30px;
-    border: 1px black solid;
-    background-color: #bdcfff;
-    color: #fff7f7;
-    font-size: 30px;
+  height: 300px;
+  max-width: 300px;
+  margin: 0 0 0 20px;
+  text-align: center;
+  padding: 30px;
+  border: 1px black solid;
+  background-color: #bdcfff;
+  color: #fff7f7;
+  font-size: 30px;
 }
 
 .section__block--small {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .section__block--icon {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .section__block__name {
-    text-align: center;
-    margin: 10px auto;
-    font-size: 40px;
-    color: black;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 40px;
+  color: black;
 }
 
 footer {
-    height: 80px;
-    padding: 50px 0 0 0;
-    text-align: center;
-    color: white;
-    background-color: black;
+  height: 80px;
+  padding: 50px 0 0 0;
+  text-align: center;
+  color: white;
+  background-color: black;
 }
