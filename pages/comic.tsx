@@ -1,8 +1,13 @@
-import React from 'react';
-import ComicPage from '../components/ComicPage';
+import React, { useState } from 'react';
+import ComicPage, { ComicPageProps } from '../components/ComicPage'; // Import ComicPageProps
 
 const Comic: React.FC = () => {
-  return <ComicPage />;
+  const [comicData, setComicData] = useState<ComicPageProps>({
+    comic: null,
+    error: null,
+  });
+
+  return <ComicPage comic={comicData.comic} error={comicData.error} />;
 };
 
 export default Comic;
